@@ -49,3 +49,6 @@ gem 'bootstrap-sass', '~> 3.3.5'
 
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.0.6'
+
+# Gmefile for will_aginate-bootstrap
+gem 'bootstrap-will_paginate', '0.0.10'
