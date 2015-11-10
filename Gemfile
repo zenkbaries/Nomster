@@ -52,3 +52,5 @@ gem 'will_paginate', '~> 3.0.6'
 
 # Gmefile for will_aginate-bootstrap
 gem 'bootstrap-will_paginate', '0.0.10'
+
+gem 'simple_form'
