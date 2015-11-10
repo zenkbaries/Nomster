@@ -4,7 +4,8 @@
 		<i><%= place.address %></i><br />d<br />
 		<p><%= place.description %></p><br />
 	</div>
-	<div class='digg_pagination'>
+	<div class='clr'></div>
+	<div class='digg_pagination col-xs-10 col-xs-offset-1 text-center'>
 		<%= will_paginate @places %>
 	</div>
 <% end %>
