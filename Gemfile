@@ -59,3 +59,6 @@ gem 'simple_form'
 
 # Gemfile for Sprocket to resolve the glyphIcon
 gem 'sprockets', '2.11.0'
+
+# Gemfile for devise for user authentication
+gem 'devise', '>= 3.2.4'
