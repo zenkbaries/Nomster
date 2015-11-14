@@ -57,6 +57,9 @@ gem 'bootstrap-will_paginate', '0.0.10'
 # Gemfile for SimpleForm
 gem 'simple_form'
 
+ # Gemfile for devise for user authentication
+gem 'devise', '>= 3.2.4'
+
 # Gemfile GeoCoder
 gem 'geocoder'
 
