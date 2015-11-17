@@ -22,8 +22,8 @@
 		
 			<% place.photos.each do |photo| %>
 				<% if photo.picture != nil %>
-					<div class="col-xs-12 col-sm-6">
-							<%= image_tag photo.picture %>
+					<div class="booyah-box col-xs-12 col-sm-6">
+							<%= image_tag photo.picture, :class => 'img-responsive'  %>
 							<%= photo.caption %>
 					</div>
 				<% end %>
