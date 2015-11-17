@@ -69,8 +69,11 @@ gem 'geocoder'
 # Gemfile figaro
 gem "figaro", ">=1.0.0"
 
- # Gemfile CarrierWave
+# Gemfile CarrierWave
 gem 'carrierwave'
+
+# Gemfile Fog
+gem "fog", "~> 1.3.1"
 
 
 

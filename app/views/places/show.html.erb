@@ -41,9 +41,11 @@
 </div>
 
 <!-- Photo Form  -->
-<div>
+<div class="booyah-box col-xs-10 col-xs-offset-1">
 	<%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
 		<%= f.input :caption %>
+		<%= f.input :picture %>
+		<br />
 		<%= f.submit "Add a Photo", :class => 'btn btn-primary' %>
 	<% end %>
 </div>
@@ -88,11 +90,10 @@
 
 <div class="clear"></div>
 
-<!-- Populate page with photos -->
-<div class="booyah-box col-xs-10 col-xs-offset-1"
-<% @place.photos.each do |photo| %>
-	<%= photo.caption %>
-<% end %>
+
+
+
+
 
 <!-- List comments on page -->
 <% @place.comments.each do |comment| %>
@@ -106,3 +107,14 @@
 		</blockquote>
 	</div>
 <% end %>
+
+<!-- Populate page with photos -->
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+	<% @place.photos.each do |photo| %>
+		<%= image_tag photo.picture %>
+		<%= photo.caption %>
+	<% end %>
+</div>
+
+
+
