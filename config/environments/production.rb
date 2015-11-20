@@ -8,8 +8,8 @@ Nomster::Application.configure do
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
   :domain         => 'yourapp.heroku.com',
   :authentication => :plain,
-}
-ActionMailer::Base.delivery_method = :smtp
+  }
+  ActionMailer::Base.delivery_method = :smtp
 
   config.action_mailer.default_url_options = { :host => 'nomster-john-towery.herokuapp.com'}
 
