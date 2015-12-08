@@ -75,6 +75,9 @@ gem 'carrierwave'
 # Gemfile Fog
 gem "fog", "~> 1.3.1"
 
+# Gemfile Factory Girl
+gem "factory_girl_rails","~> 4.0"
+
 
 
 
