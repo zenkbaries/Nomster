@@ -8,7 +8,16 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "user show page, not found" do
-  	get :show, :id => '1'
+  	get :show, :id => 'fake'
   	assert_response :not_found
   end
+
+
+  
+
+
+
+
+
+
 end
